@@ -10,6 +10,7 @@
 ## b. cacheSolve: is to return the inverse of the matrix 
 ##    1. checks if the inverse has already been computed
 ##    2. gets the result or computes the inverse
+
 makeCacheMatrix <- function(x = matrix()) {
 
 }
