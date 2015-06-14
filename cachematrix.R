@@ -48,6 +48,6 @@ cacheSolve <- function(x, ...) {
         
         data = x$get() ## if not,  use x$get() to get the setted matrix
         m = solve(data, ...) ## use function "solve" to calculate the inverse of matrix
-        x$setinverse(m)  ## setting cached m
+        x$setinverse(m)  ## setting caching m
         return(m)  ## return a matrix that is the inverse of 'x'
 }
